@@ -17,7 +17,7 @@ def inserir_dados(nome, idade):
   #salva as alterações no banco d dados
   connection.commit()
 
-inserir_dados("Halbert", '30')
+inserir_dados("Gustavo", '30')
 
 #fazer uma consulta d dados * seleciona todas a linhas da tabela usuario
 cursor.execute(
